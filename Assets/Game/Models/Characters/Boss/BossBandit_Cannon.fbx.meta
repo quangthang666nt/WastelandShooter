@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: fd9ff85936a6a2c4e801bcf3660df4a0
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 1
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: BossBandit_Cannon(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Minigun
+      parentName: BossBandit_Cannon(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Minigun_Barrel
+      parentName: Minigun
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cannon_Barrel
+      parentName: Minigun
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Bandit
+      parentName: BossBandit_Cannon(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Root
+      parentName: BossBandit_Cannon(Clone)
+      position: {x: 0, y: 0.016101914, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Hips
+      parentName: Boss_Root
+      position: {x: -0.0000003775204, y: 0.42999998, z: -0.0028085732}
+      rotation: {x: 4.7433335e-13, y: -0.00000029113596, z: 0.0000016292502, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Spine
+      parentName: Boss_Hips
+      position: {x: 1.490778e-21, y: 0.14707534, z: -0.0021423243}
+      rotation: {x: -0.015963439, y: 0.00000031710732, z: -0.0000016243952, w: 0.9998726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Spine1
+      parentName: Boss_Spine
+      position: {x: 8.164238e-14, y: 0.078294426, z: -1.7763568e-17}
+      rotation: {x: 3.469447e-18, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Spine2
+      parentName: Boss_Spine1
+      position: {x: 9.33056e-14, y: 0.089479364, z: 1.5543122e-17}
+      rotation: {x: 3.469447e-18, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Neck
+      parentName: Boss_Spine2
+      position: {x: 4.065758e-22, y: 0.10066424, z: 1.106776e-10}
+      rotation: {x: 0.015963439, y: 0, z: -0, w: 0.9998726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Head
+      parentName: Boss_Neck
+      position: {x: 1.3651317e-13, y: 0.046607714, z: 0.008941411}
+      rotation: {x: 0.17278871, y: 0, z: -0, w: 0.9849589}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_HeadTop_End
+      parentName: Boss_Head
+      position: {x: 1.3552527e-22, y: 0.18336736, z: 0.014648733}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Clavical_L
+      parentName: Boss_Spine2
+      position: {x: -0.051599696, y: 0.09028314, z: 0.013119149}
+      rotation: {x: 0.0063195257, y: -0.076469116, z: 0.12462578, w: 0.98923254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Arm_1_L
+      parentName: Boss_Clavical_L
+      position: {x: -0.10653166, y: -4.2632563e-16, z: 0}
+      rotation: {x: 0.0054094633, y: 0.036287285, z: -0.11123702, w: 0.99311644}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Arm_2_L
+      parentName: Boss_Arm_1_L
+      position: {x: -0.23528902, y: 1.4210854e-16, z: 3.7747583e-17}
+      rotation: {x: 0.0020784137, y: 0.06026924, z: 0.000005950925, w: 0.99818003}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Arm_3_L
+      parentName: Boss_Arm_2_L
+      position: {x: -0.16541405, y: -7.105427e-16, z: 9.7699626e-17}
+      rotation: {x: -0.000120596385, y: -0.0032137006, z: 0.0030303025, w: 0.9999903}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Hand_1_L
+      parentName: Boss_Arm_3_L
+      position: {x: -0.08843941, y: -7.105427e-16, z: -5.595524e-16}
+      rotation: {x: -0.00024720415, y: -0.004054587, z: 0.020353628, w: 0.9997846}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Hand_2_L
+      parentName: Boss_Hand_1_L
+      position: {x: -0.08659738, y: 2.842171e-16, z: -4.4408918e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Fin_1_L
+      parentName: Boss_Arm_3_L
+      position: {x: -0.052523054, y: -0.019248277, z: 0.048177328}
+      rotation: {x: 0.043976065, y: 0.043992493, z: -0.0059973677, w: 0.99804556}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Fin_2_L
+      parentName: Boss_Fin_1_L
+      position: {x: -0.030679004, y: 1.4210854e-16, z: 2.1316282e-16}
+      rotation: {x: 0.000005305007, y: 0.000029963847, z: 0.00000035352483, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Fin_3_L
+      parentName: Boss_Fin_2_L
+      position: {x: -0.016356263, y: -1.4210854e-16, z: -5.6132873e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Clavical_R
+      parentName: Boss_Spine2
+      position: {x: 0.05159969, y: 0.09028324, z: 0.013119153}
+      rotation: {x: 0.98923254, y: -0.12462578, z: -0.076469116, w: -0.0063195257}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Arm_1_R
+      parentName: Boss_Clavical_R
+      position: {x: 0.106531255, y: 0.00000027046687, z: 0.00000003708731}
+      rotation: {x: 0.0054115057, y: 0.036287338, z: -0.11123733, w: 0.9931165}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Arm_2_R
+      parentName: Boss_Arm_1_R
+      position: {x: 0.23528974, y: 0.0000001415208, z: 0.00000001041123}
+      rotation: {x: 0.0020784137, y: 0.06026924, z: 0.000005950925, w: 0.99818003}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Arm_3_R
+      parentName: Boss_Arm_2_R
+      position: {x: 0.16541375, y: 0.000000029724717, z: -0.000000062520726}
+      rotation: {x: -0.000120596385, y: -0.0032137006, z: 0.0030303025, w: 0.9999903}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Hand_1_R
+      parentName: Boss_Arm_3_R
+      position: {x: 0.08843931, y: -0.0000002090976, z: 0.000000042596234}
+      rotation: {x: -0.00024720415, y: -0.004054587, z: 0.020353628, w: 0.9997846}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Hand_2_R
+      parentName: Boss_Hand_1_R
+      position: {x: 0.08659731, y: -0.0000001923594, z: -0.000000043266848}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Fin_1_R
+      parentName: Boss_Arm_3_R
+      position: {x: 0.052522674, y: 0.01924821, z: -0.04817733}
+      rotation: {x: 0.05786046, y: 0.062297467, z: 0.027118208, w: 0.99601}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Fin_2_R
+      parentName: Boss_Fin_1_R
+      position: {x: 0.030678956, y: -0.000000432762, z: -0.000000032156898}
+      rotation: {x: 0.000005304991, y: 0.000029963847, z: 0.00000035352483, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Fin_3_R
+      parentName: Boss_Fin_2_R
+      position: {x: 0.016356612, y: 0.00000046026335, z: 0.000000468762}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_ArmArmor_3
+      parentName: Boss_Arm_2_R
+      position: {x: -0.0043929615, y: 0.02236952, z: 0.069271356}
+      rotation: {x: 0.99972075, y: -0.017235788, z: 0.016167402, w: 0.00027873574}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_ArmArmor_2
+      parentName: Boss_Clavical_R
+      position: {x: 0.11961019, y: -0.05394382, z: 0.005060671}
+      rotation: {x: 0.9892074, y: -0.12583062, z: -0.07446992, w: -0.009472831}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_ArmArmor_1
+      parentName: Boss_Clavical_R
+      position: {x: 0.077565074, y: -0.043071326, z: 0.011636688}
+      rotation: {x: 0.9892074, y: -0.12583062, z: -0.07446992, w: -0.009472831}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Leg_1_L
+      parentName: Boss_Hips
+      position: {x: -0.0951268, y: 0.008131378, z: -0.0034330015}
+      rotation: {x: 0.07276862, y: 0.07784609, z: 0.6773735, w: 0.72788036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Leg_2_L
+      parentName: Boss_Leg_1_L
+      position: {x: -0.20667663, y: 0.0052062497, z: -0.0010958439}
+      rotation: {x: -0.5756565, y: -0.0531135, z: -0.01622443, w: 0.8158035}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Leg_3_L
+      parentName: Boss_Leg_2_L
+      position: {x: -0.15643223, y: -8.8817837e-17, z: -1.7763567e-16}
+      rotation: {x: 0.87330943, y: 0.32167158, z: -0.08727469, w: 0.3553044}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Leg_4_L
+      parentName: Boss_Leg_3_L
+      position: {x: -0.094760776, y: -5.3290704e-17, z: -1.7763568e-17}
+      rotation: {x: 0.023919417, y: 0.043989196, z: -0.45966458, w: 0.88667995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Leg_5_L
+      parentName: Boss_Leg_4_L
+      position: {x: -0.06879588, y: -2.4980017e-18, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_LegArmor_L
+      parentName: Boss_Leg_2_L
+      position: {x: 0.009061208, y: -0.053962354, z: 0.038157854}
+      rotation: {x: 0.32705623, y: 0.36586222, z: -0.5806941, w: 0.64959484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Leg_1_R
+      parentName: Boss_Hips
+      position: {x: 0.10045993, y: 0.008130676, z: -0.003433119}
+      rotation: {x: 0.7298888, y: -0.6781284, z: 0.063720986, w: -0.057826377}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Leg_2_R
+      parentName: Boss_Leg_1_R
+      position: {x: 0.20630062, y: 0.00000004804693, z: -0.000000016757308}
+      rotation: {x: -0.5756565, y: -0.0531135, z: -0.01622443, w: 0.8158035}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Leg_3_R
+      parentName: Boss_Leg_2_R
+      position: {x: 0.156432, y: 8.6777957e-10, z: 0.000000043117684}
+      rotation: {x: 0.8720197, y: 0.32146913, z: -0.08820366, w: 0.35841233}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Leg_4_R
+      parentName: Boss_Leg_3_R
+      position: {x: 0.09476073, y: 0.00000007217203, z: -0.00000027472757}
+      rotation: {x: 0.023919417, y: 0.043989196, z: -0.45966458, w: 0.88667995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Leg_5_R
+      parentName: Boss_Leg_4_R
+      position: {x: 0.06879551, y: 0.000000031906794, z: 0.0000003306286}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_LegArmor_R
+      parentName: Boss_Leg_2_R
+      position: {x: -0.009060942, y: 0.05396232, z: -0.038157992}
+      rotation: {x: 0.32705623, y: 0.36586222, z: -0.5806941, w: 0.64959484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Mag_1
+      parentName: Boss_Hips
+      position: {x: -0.089358546, y: 0.08804034, z: -0.14428177}
+      rotation: {x: 4.7433335e-13, y: 0.00000029113596, z: -0.0000016292502, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boss_Mag_2
+      parentName: Boss_Hips
+      position: {x: -0.1077124, y: 0.020004002, z: -0.15668035}
+      rotation: {x: 4.7433335e-13, y: 0.00000029113596, z: -0.0000016292502, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Minigun_1
+      parentName: Boss_Root
+      position: {x: 0.0000005650242, y: 1.8314308e-12, z: -0.30419496}
+      rotation: {x: 0, y: -0.0000005822719, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Minigun_2
+      parentName: Minigun_1
+      position: {x: 0.000000023290877, y: 0.13510895, z: 0.25275427}
+      rotation: {x: 0, y: 1.0587912e-22, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Barrel
+      parentName: Minigun_1
+      position: {x: -0.00000017707312, y: 0.0012777334, z: 0.33313563}
+      rotation: {x: 0, y: 0.0000005822719, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Boss_Bandit
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
